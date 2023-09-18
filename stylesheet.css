@@ -1,0 +1,36 @@
+li{
+  color:aquamarine
+}
+
+.selected{
+  color:bisque
+}
+
+
+li {
+ list style: none;
+ float:left;
+ padding:33px 20px;
+}
+
+.header {
+  background-color :lightskyblue;
+  color: black;
+  height: 90px;
+}
+  
+.header-logo {
+  font-size:36px; 
+  float: left;
+  padding:20px 40px; 
+}
+
+.main {
+  background-color :lightblue;
+  height: 600px;
+}
+
+.footer {
+  background-color :stategray;
+  height: 270px;
+}
