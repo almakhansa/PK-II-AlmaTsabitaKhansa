@@ -1,36 +1,27 @@
-li{
-  color:aquamarine
+body {
+  font-family: "Avenir Next";
 }
-
-.selected{
-  color:bisque
-}
-
 
 li {
- list style: none;
- float:left;
- padding:33px 20px;
+  list-style: none;
+  /* Ganti property float menjadi left */
+  
 }
 
 .header {
-  background-color :lightskyblue;
-  color: black;
+  background-color: #f7f2b4;
   height: 90px;
 }
-  
-.header-logo {
-  font-size:36px; 
-  float: left;
-  padding:20px 40px; 
-}
+
+/* Ganti font-size milik header-logo menjadi 36px, dan property float menjadi left */
+
 
 .main {
-  background-color :lightblue;
+  background-color: #bdf7f1;
   height: 600px;
 }
 
 .footer {
-  background-color :stategray;
+  background-color: #ceccf3;
   height: 270px;
 }
